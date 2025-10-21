@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int idade;
+
+int conversor(int idade)
+{
+    return (idade * 31536000);
+}
+int main() 
+{
+    scanf("%d", &idade);
+    printf("%d\n", conversor(idade) );
+	return 0;
+}
